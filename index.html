@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="index.js"></script>
+    <title>Challenge</title>
+</head>
+
+<body>
+    <div class="container" >
+        <div id="title">
+            <h1 id="header1" >Kill The Monster</h1>
+        </div>
+    
+        <div class="health">
+                <h2 class="health-header" >Monster Health</h2>
+                <div id="bar1" style="--width:100;"  data-bar1="."></div>
+        </div>
+        
+        <div class="health">
+                <h2 class="health-header">My Health</h2>
+                <div id="bar2" style="--width:100;" data-bar2="."></div>
+        </div>
+
+        <div id="all-buttons">
+
+            <button class="buttons" onclick="attack()">ATTACK</button> 
+            <button class="buttons" id="SA" onclick="specialAttack()">SPECIAL ATTACK</button>  
+            
+            <br>
+
+            <button class="buttons" onclick="heal()">HEAL</button> 
+            <button class="buttons" onclick="giveUp()">GIVE UP</button>         
+        </div>
+
+    </div>
+</body>
+</html>
